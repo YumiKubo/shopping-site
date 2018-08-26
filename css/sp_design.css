@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+#PC_PAGE{
+	display:none;
+}
+#LOGO img{
+	width:110px;
+}
+
+/* header部分の設定 */
+#LOGO{
+	width:100%;
+	text-align: center;
+}
+#LOGO img{
+	margin-top:15px;
+}
+/* ヘッダナビの設定 */
+#SP_PAGE{
+	text-align: center;
+}
+#SP_PAGE li{
+	display:inline-block;
+	cursor: pointer;
+	margin:0 4px;
+	font-size: 2.4rem;
+}
+#SP_PAGE li,#SP_PAGE li *{
+	vertical-align: bottom;
+}
+
+/* ハンバーガー内の隠しメニュー部分の設定 */
+#PC_PAGE{
+	background:#ff6d77;
+	padding:10px;
+}
+#PC_PAGE li{
+	list-style: none;
+	font-weight:normal;
+	border-bottom:1px solid #fff;
+}
+#PC_PAGE li:nth-child(4){
+	border: none;
+	margin-bottom:-10px;
+}
+#PC_PAGE li span.pc_page_txt{
+	display:none;
+}
+#PC_PAGE li span.sp_page_txt{
+	display:block;
+}
+#PC_PAGE a{
+	display: block;
+	padding-bottom:10px;
+	color:#fff;
+}
+.social_link{
+	display: none;
+}
+#CATEGORY_LIST span.pc_page{
+	display: none;
+}
+
+/* PageTopボタンの設定 */
+#PAGE_TOP{
+	text-align: center;
+}
+
+/* サブメニュー表示の設定 */
+#NEW_ITEM_LIST span.pc_page{
+	display:none;
+}
+#NEW_ITEM_LIST span.sp_page img{
+	width: 120px;
+} 
+#POPULAR_ITEMS_LIST span.pc_page{
+	display:none;
+}
+#POPULAR_ITEMS_LIST span.sp_page img{
+	width: 170px;
+}
+
+#SHOPPING_GUIDE span.pc_page{
+	display:none;
+}
+#SHOPPING_GUIDE span.sp_page img{
+	width: 190px;
+}
+#WATCH_ITEMS_LIST span.pc_page{
+	display:none;
+}
+#WATCH_ITEMS_LIST span.sp_page img{
+	width:120px;
+}
+
+
+/* Footerナビの設定 */
+footer li{
+	margin:0 1px;
+}
+
+/* 検索エンジンの設定 */
+#SEARCH_ENGINE h4{
+	display:none;
+}
+
+/* ABOUT & SHOP INFOの設定 */
+.sub_pict{
+	width:40%;
+	padding:15px 3%;
+	float:left;
+}
+.sub_text{
+	padding:10px 2%;
+	width:50%;
+	float:right;
+}
+.more_button{
+	text-align:left;
+}
